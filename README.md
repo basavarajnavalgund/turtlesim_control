@@ -16,7 +16,16 @@ $ rosrun turtlesim_control turtle_controller.py
 
 After that, you will be asked for a new X and Y turtle position on the terminal. Then, the turtle should move to the specified location.
 
-## Changing coeficients (Kp, Ki and Kd)
+To run the make a grid node from turtlesim_control package:
 
-You may customize the PID controller by changing the angular and distance coeficients from the __init__() method in the turtle_controller.py file.
+```
+$ rosrun turtlesim_control grid.py
+```
+
+To run rotate turtlesim rotate node from the turtlesim_control package:
+
+```
+$ rosrun turtlesim_control rotate.py
+```
+
  
